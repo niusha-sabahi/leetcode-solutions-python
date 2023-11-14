@@ -1,5 +1,7 @@
 # leetcode-solutions-python
-This is a repository of my solutions to some LeetCode problems, that I have completed in python. LeetCode is an online platform that provides a collection of coding challenges and algorithmic problems to help users practice and enhance their programming and problem-solving skills.
+This is a repository of my solutions to some LeetCode problems, that I have completed in python. LeetCode is an online platform that provides a collection of coding challenges and algorithmic problems to help users practice and enhance their programming and problem-solving skills. 
+
+My LeetCode profile link is https://leetcode.com/niusha_s/, where you can view more information about my program submissions and explained solutions.
 
 The problems are organised into folders and each file contains my solution to one problem. The description, and performance of each program in comparison to other users, are given at the top of every program file.  
 
