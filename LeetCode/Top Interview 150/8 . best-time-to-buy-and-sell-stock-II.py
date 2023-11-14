@@ -3,6 +3,7 @@
 # to sell that stock, and repeating this process through the days in the list. Return the maximum profit you can 
 # achieve from this series of transactions. If you cannot achieve any profit, return 0.
 
+# -- Performance At Time Of Completion --
 # Runtime : Beats % of users with Python3 - GREEN
 # Memory : Beats % of users with Python3 - GREEN
 
@@ -27,4 +28,5 @@ def maxProfit(prices):
        total_profit = total_profit + (prices[-1] - buy_price)
     return total_profit
 
-print(maxProfit([1,2,3,4,5]))
+print(maxProfit([1,2,3,4,5])) # 4
+print(maxProfit([7,1,5,3,6,4])) # 7

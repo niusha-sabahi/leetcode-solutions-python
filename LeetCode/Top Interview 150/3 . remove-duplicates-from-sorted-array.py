@@ -1,8 +1,10 @@
 # Given an integer array 'nums' sorted in non-decreasing order, remove the duplicates in-place such that each unique 
 # element appears only once. The relative order of the elements should be kept the same. 
 
-# Using the Two-Pointer System with 'replace' and 'i'
+# -- Approach -- 
+# Using the Two-Pointer System with 'replace' and 'i'.
 
+# -- Performance At Time Of Completion --
 # Runtime : Beats 73.85% of users with Python3 - GREEN
 # Memory : Beats 6.49% of users with Python3 - RED (but only 0.4MB from GREEN)
 

@@ -2,6 +2,7 @@
 # representing the number of elements in 'nums1' and 'nums2' respectively. Merge 'nums1' and 'nums2' into a single 
 # array sorted in non-decreasing order. 'nums1' contains '0's in place of the items that will be added from 'nums2'.
 
+# -- Performance At Time Of Completion --
 # Runtime : Beats 88.94% of users with Python3 - GREEN
 # Memory : Beats 87.15% of users with Python3 - GREEN
 

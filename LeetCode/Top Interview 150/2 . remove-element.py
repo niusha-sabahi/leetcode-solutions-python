@@ -1,6 +1,7 @@
 # Given an integer array 'nums' and an integer 'val', remove all occurrences of 'val' in nums in-place. The order of the 
 # elements may be changed. Then return the number of elements in nums which are not equal to val.
 
+# -- Performance At Time Of Completion --
 # Runtime : Beats 53.09% of users with Python3 - GREEN
 # Memory : Beats 73.04% of users with Python3 - GREEN
 

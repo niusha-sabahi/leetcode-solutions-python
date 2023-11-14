@@ -1,5 +1,6 @@
 # Given an integer array 'nums', rotate the array to the right by 'k' steps, where 'k' is non-negative.
 
+# -- Performance At Time Of Completion --
 # Runtime : Beats 79.71% of users with Python3 - GREEN
 # Memory : Beats 41.08% of users with Python3 - RED (but only 0.14MB from GREEN)
 

@@ -2,6 +2,7 @@
 # Given an array 'nums', return the majority element. The majority element is the element that appears more than 
 # ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
 
+# -- Performance At Time Of Completion --
 # Runtime : Beats 95.56% of users with Python3 - GREEN
 # Memory : Beats 32.72% of users with Python3 - RED (but only 0.12MB from GREEN)
 
