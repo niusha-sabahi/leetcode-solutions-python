@@ -1,7 +1,7 @@
 # You are given an array 'prices' where 'prices[i]' is the price of a given stock on the ith day.
-# You want to maximize your profit by choosing a day to buy one stock and choosing a different day in the future 
-# to sell that stock, and repeating this process through the days in the list. Return the maximum profit you can 
-# achieve from this series of transactions. If you cannot achieve any profit, return 0.
+# Return the maximum profit you can achieve from choosing a day to buy one stock and choosing a different day in the 
+# future to sell that stock, and repeating this process through the days in the list. You are allowed to buy then sell 
+# your stock on the same day and vice versa. If you cannot achieve any profit, return 0.
 
 # -- Performance At Time Of Completion --
 # Runtime : Beats % of users with Python3 - GREEN
@@ -12,23 +12,15 @@ def maxProfit(prices):
         return 0
 
     buy_price = prices[0]
-    current_profit = 0
     total_profit = 0
 
-    for price in prices[1:-1]:
-        if price < buy_price:
-            buy_price = price
-        elif (price > buy_price) and ((price - buy_price) > current_profit):
-            current_profit = price - buy_price
+    for i in range (1, len(prices)):
+        if prices[i] < buy_price:
+            buy_price = prices[i]
         else:
-            total_profit = total_profit + current_profit
-            current_profit = 0
-            buy_price = price
-    if (prices[-1] - buy_price) > current_profit:
-       total_profit = total_profit + (prices[-1] - buy_price)
+            total_profit = total_profit + (prices[i] - buy_price)
+            buy_price = prices[i]
     return total_profit
 
-# test text
-
-print(maxProfit([1,2,3,4,5])) # 4
-print(maxProfit([7,1,5,3,6,4])) # 7
+print(maxProfit([1,2,3,4,5])) # expected output : 4
+print(maxProfit([7,1,5,3,6,4])) # expected output : 7
