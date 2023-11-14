@@ -28,5 +28,7 @@ def maxProfit(prices):
        total_profit = total_profit + (prices[-1] - buy_price)
     return total_profit
 
+# test text
+
 print(maxProfit([1,2,3,4,5])) # 4
 print(maxProfit([7,1,5,3,6,4])) # 7
