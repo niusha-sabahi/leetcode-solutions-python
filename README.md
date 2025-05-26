@@ -5,6 +5,8 @@ My LeetCode profile link is https://leetcode.com/niusha_s/, where you can view m
 
 The problems are organised into folders and each file contains my solution to one problem. The description, and performance of each program in comparison to other users, are given at the top of every program file.  
 
+Currently working through this set - https://leetcode.com/studyplan/top-interview-150/
+
 ## Intended Usage and Restrictions
 This repository is intended for code visibility and reference purposes only. Users are allowed to:
 - **View** the source code on GitHub.
