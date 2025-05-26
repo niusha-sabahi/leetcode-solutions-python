@@ -1,4 +1,4 @@
-# Theory - problem is can we jump over every 0 we encounter in list?
+# Theory - problem is can we jump over every 0 we encounter in list? 
 
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
